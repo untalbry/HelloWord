@@ -29,6 +29,7 @@ li{
 }
 li:hover{
 color: #a634cc;
+cursor: pointer;
 }
 
 /*elemento padre*/
@@ -113,36 +114,34 @@ color: #a634cc;
     white-space: nowrap;
     border-right: 4px solid;
  }
- 
+
 /* Colores del tema One Dark Pro para Java */
-.code.java {
-  color: #d4d4d4; /* Color del texto */
+.yellow{
+    color: #e5c07b;
 }
-
-.code.java .coment {
-  color: #6b6b6b; /* Color de los comentarios */
+.blue{
+    color: #56b6c2
 }
-
-.code.java .keyword {
-  color: #c586c0; /* Color de las palabras clave */
+.green {
+    color:#98c379; 
 }
  span.code.java{
-    width: 33ch;
-    animation: typing 2s steps(33),
+    width: 35ch;
+    animation: typing 2s steps(35),
     blink .5s step-end infinite alternate;
     overflow: hidden;
  }
  span.code.C{
-    width: 22ch;
-    animation: typing 2s steps(22),
+    width: 23ch;
+    animation: typing 2s steps(23),
     blink .5s step-end infinite alternate;
     overflow: hidden;
  }
  span.code.python{
-    width: 20ch;
-    animation: typing 2s steps(20),
+    width: 22ch;
+    animation: typing 2s steps(22),
     blink .5s step-end infinite alternate;
-    overflow: hidden;
+    overflow: hidden;  
  }
 @keyframes typing{
     from{
